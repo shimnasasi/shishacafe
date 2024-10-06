@@ -1,0 +1,66 @@
+.container {
+  position: relative;
+}
+.HomeBanner-container {
+  width: 100%;
+  height: 100vh;
+
+  /* background-color: red; */
+  background: url("../../assets/banner/bannerbg.jpg");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #e9f3f1;
+}
+.shishacafe {
+  /* color: var(--pink); */
+  font-size: 3rem;
+  font-weight: bold;
+}
+.bannerBtn {
+  padding: 1rem 3rem;
+  font-size: 1rem;
+  color: #feabb8;
+  cursor: pointer;
+  background-color: transparent;
+  border: 1px solid #feabb8;
+  font-family: "Quicksand", sans-serif;
+}
+
+.bannerBtn:hover {
+  background-color: #feabb8;
+  color: #020a27;
+}
+.homebnr {
+  width: 100%;
+  height: 100vh;
+  background-color: #020a277d;
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  color: #e9f3f1;
+}
+.homebnr h1{
+  font-size: 4rem;
+}
+
+@media (max-width: 480px) {
+  .HomeBanner-container {
+    background: url('../../assets/banner/bannermob.JPG');
+    background-position: center;
+    background-size: cover;
+    /* background-size: ; */
+    /* background-position: initial; */
+  }
+  .homebnr h1{
+    font-size: 2rem;
+  }
+}

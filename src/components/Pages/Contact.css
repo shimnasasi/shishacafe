@@ -1,0 +1,129 @@
+.contact-container {
+}
+.pageTop {
+  width: 100%;
+  height: 75vh;
+  background-position: center;
+  background: url("../../assets/contact/pagetop.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Dosis", sans-serif;
+  color: #e9f3f1;
+  text-align: center;
+  gap: 1rem;
+}
+.pageTop p {
+  width: 60%;
+  font-size: 1.5rem;
+}
+.contact {
+  font-size: 2rem;
+}
+.intouch {
+  font-size: 3rem;
+  color: #f45dd9;
+}
+.form-container {
+  width: 100%;
+  background-color: black;
+  height: 100vh;
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  justify-content: center;
+  gap: 10rem;
+}
+.squre {
+  /* height: 80vh;/ */
+  /* width: 90%; */
+  padding: 2rem;
+  border: 2px solid rgb(172, 74, 12);
+  color: white;
+  text-align: center;
+}
+.heading {
+  font-size: 1.3rem;
+  font-family: "Dosis", sans-serif;
+  /* margin-top: 2rem; */
+  /* margin-left: 3.5rem; */
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  margin-top: 2rem;
+  gap: 1.5rem;
+}
+.msg {
+  height: 12rem;
+  width: 20rem;
+  border-radius: 0.4rem;
+  background-color: rgb(51, 50, 50);
+  border: none;
+  padding-left: 0.5rem;
+}
+.text {
+  height: 3rem;
+  width: 20rem;
+  border-radius: 0.4rem;
+  background-color: rgb(51, 50, 50);
+  border: none;
+  padding-left: 0.5rem;
+}
+.form button {
+  height: 3rem;
+  width: 8rem;
+  border-radius: 0.4rem;
+  background-color: rgb(172, 74, 12);
+  border: none;
+}
+.contact-information 
+{
+    color: #e9f3f1;
+    text-align: center;
+}
+.contact-icon
+{
+    background-color: rgb(172, 74, 12);
+    font-size: 2rem;
+    padding:1rem;
+    border-radius: 100%;
+}
+.contact-links
+{
+    display: flex;
+    gap: 2rem;
+}
+.contact-information h2{
+    font-size: 2rem;
+}
+
+@media (max-width: 480px) {
+  .pageTop p {
+    width: 100%;
+    font-size: 1.2rem;
+  }
+  .text {
+    width: 12rem;
+    height: 4rem;
+  }
+  .msg {
+    height: 10rem;
+    width: 12rem;
+  }
+  .form-container
+  {
+    height: 100%;
+    padding: 5rem 0;
+    flex-direction: column;
+    gap: 3.5rem;
+  }
+  .contact-links
+  {
+    flex-direction: column;
+  }
+}

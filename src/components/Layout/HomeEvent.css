@@ -1,0 +1,40 @@
+.eventcontainer {
+  width: 100%;
+  height: 27rem;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+.event {
+  width: 56rem;
+  height: 20rem;
+  background-color: rgb(7, 7, 42);
+  border: 2px solid var(--pink);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+}
+.have {
+  font-size: 2rem;
+  text-align: center;
+}
+.event p {
+  text-align: center;
+}
+.event button {
+  width: 9rem;
+  height: 3rem;
+  background-color: rgb(7, 7, 42);
+  color: white;
+  border: 2px solid var(--pink);
+}
+@media (max-width: 480px) {
+  .event {
+    width: 16rem;
+  height: 25rem;
+
+  }
+}
