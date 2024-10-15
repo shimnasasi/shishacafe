@@ -3,7 +3,7 @@ import "./HomeGallery.css";
 const HomeGallery = () => {
   return (
     <div className="gallery">
-      <div>
+      <div className="galleryimg-wrapper">
         <img
           className="galleryimages"
           src="https://www.laibensecafe.com/wp-content/uploads/2023/02/u4ithg.png"
@@ -20,7 +20,7 @@ const HomeGallery = () => {
           alt=""
         />
       </div>
-      <div>
+      <div className="galleryimg-wrapper">
         <img
           className="galleryimages"
           src="https://www.laibensecafe.com/wp-content/uploads/2023/02/94t8ug.png"
